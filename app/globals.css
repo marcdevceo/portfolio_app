@@ -41,3 +41,29 @@ body {
   padding: 10px;
   font-size: 1.5rem;
 }
+
+p {
+  margin-bottom: 15px;
+}
+
+.blog-section {
+  font-weight: 900;
+}
+
+.blog-button {
+  border: 1px solid;
+  padding: 15px;
+}
+
+.blog-date {
+  margin: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.blog-button:hover {
+  background-color: black;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out; /* Adjust timing and easing as needed */
+}
+
