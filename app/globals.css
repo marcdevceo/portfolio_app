@@ -18,16 +18,26 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url('../public/marcdevceo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.header {
+  font-family: var(--bubblegum-sans);
+  text-align: center;
+  margin-top: 50px;
+  font-size: 4rem;
+}
+.sub-header {
+  font-family: var(--bubblegum-sans);
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
 }
