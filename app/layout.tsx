@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Bubblegum_Sans, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
-const bubblegumSans = Bubblegum_Sans({subsets: ['latin'], weight:"400"});
 
 export const metadata: Metadata = {
   title: "MarcDevCEO Portfolio",
@@ -17,10 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={bubblegumSans.className}>
+    <html lang="en">
       <body className={inter.className}>
         <Navbar />
         {children}
+        <footer className="footer">Copyright © 2024 | Created by MarcDevCEO</footer>
       </body>
     </html>
   );
