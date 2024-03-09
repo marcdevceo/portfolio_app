@@ -80,7 +80,3 @@ p {
   transform: scale(1.2);
   transition: transform 0.2s ease-in-out; 
 }
-
-.job-details {
-  text-decoration: dotted;
-}
