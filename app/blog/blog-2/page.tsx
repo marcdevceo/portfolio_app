@@ -2,7 +2,7 @@ import React from 'react'
 
 const postTwo = () => {
   return (
-    <div className='m-8'>
+    <div className='m-10'>
         <h1 className='header'>
         From Front-End Fumbles to Backend Beginnings
         </h1>

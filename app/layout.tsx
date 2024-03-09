@@ -18,8 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        {children}
+        <header>
+          <Navbar />
+        </header>
+        <div className="body">
+          {children}
+        </div>
         <footer className="footer">Copyright © 2024 | Created by MarcDevCEO</footer>
       </body>
     </html>

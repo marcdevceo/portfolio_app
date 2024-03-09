@@ -2,7 +2,7 @@ import React from 'react'
 
 const postOne = () => {
   return (
-    <div className='m-8'>
+    <div className='m-10'>
         <h1 className='header'>
             Rediscovering My Passion: A 22-Year Journey Back to Software Engineering
         </h1>

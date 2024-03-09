@@ -1,6 +1,8 @@
 import Image from "next/image";
-import blogPostImage from '../public/blogImage.jpg';
-import pHolderImage from '../public/pHolder.jpg';
+import blogPostImage from '../public/blog.jpeg';
+import projectsImage from '../public/Projects.png';
+import resumeImage from '../public/Resume.png';
+import walkthroughImage from '../public/walkthrough.png';
 import Link from "next/link";
 
 export default function Home() {
@@ -17,34 +19,34 @@ export default function Home() {
             className="p-5"
             src={blogPostImage}
             alt="Blog Posts"
-            width={500}
-            height={500}
+            // width={500}
+            // height={500}
             // layout="responsive"
           />     
         </Link>
         <Image
           className="p-5"
-          src={pHolderImage}
+          src={resumeImage}
           alt="Blog Posts"
-          width={500}
-          height={500}
+          // width={500}
+          // height={500}
           // layout="responsive"
         />
         <Image
           className="p-5"
-          src={pHolderImage}
+          src={projectsImage}
           alt="Blog Posts"
-          width={500}
-          height={500}
-          // layout="responsive"
+          // width={500}
+          // height={500}
+          // // layout="responsive"
         />
         <Image
           className="p-5"
-          src={pHolderImage}
+          src={walkthroughImage}
           alt="Blog Posts"
-          width={500}
-          height={500}
-          // layout="responsive"
+          // width={500}
+          // height={500}
+          // // layout="responsive"
         />
       </div>
     </div>
