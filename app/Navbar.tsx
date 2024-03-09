@@ -7,6 +7,9 @@ const Navbar = () => {
     <div className='flex justify-end'>
         <Link className='p-4' href='/'>Home</Link>
         <Link className='p-4' href='/blog'>Blog</Link>
+        <Link className='p-4' href='/resume'>Resume</Link>
+        <Link className='p-4' href=''>Projects</Link>
+        <Link className='p-4' href=''>Walk-throughs</Link>
     </div>
   )
 }

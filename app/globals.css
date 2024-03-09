@@ -41,6 +41,7 @@ body {
   }
 }
 
+
 .header {
   font-family: var(--bubblegum-sans);
   text-align: center;
@@ -60,6 +61,7 @@ p {
 
 .blog-section {
   font-weight: 900;
+  margin: 5px 10px 5px 0px;
 }
 
 .blog-button {
@@ -76,6 +78,9 @@ p {
 .blog-button:hover {
   background-color: black;
   transform: scale(1.2);
-  transition: transform 0.2s ease-in-out; /* Adjust timing and easing as needed */
+  transition: transform 0.2s ease-in-out; 
 }
 
+.job-details {
+  text-decoration: dotted;
+}

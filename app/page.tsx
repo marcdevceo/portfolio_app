@@ -24,14 +24,16 @@ export default function Home() {
             // layout="responsive"
           />     
         </Link>
-        <Image
-          className="p-5"
-          src={resumeImage}
-          alt="Blog Posts"
-          // width={500}
-          // height={500}
-          // layout="responsive"
-        />
+        <Link href="/resume">
+          <Image
+            className="p-5"
+            src={resumeImage}
+            alt="Blog Posts"
+            // width={500}
+            // height={500}
+            // layout="responsive"
+          />     
+        </Link>
         <Image
           className="p-5"
           src={projectsImage}
