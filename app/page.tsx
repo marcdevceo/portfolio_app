@@ -11,7 +11,7 @@ export default function Home() {
       <div className="mb-10">
         <h1 className='header'>MARCDEVCEO</h1>
         <h3 className="sub-header">A portfolio by Marcus Kimber</h3>
-        <h3 className="sub-header">Blog | Walkthroughs | Projects</h3>
+        <h3 className="sub-header">Blog | Resume | Projects | Walk-throughs</h3>
       </div>
       <div className="flex flex-wrap justify-center">
         <Link href="/blog">

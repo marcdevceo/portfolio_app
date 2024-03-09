@@ -6,7 +6,7 @@ const postFour = () => {
             <h1 className='header'>
             Embracing the Pythonic Path: From Frontend Fancies to Backend Brilliance
             </h1>
-            <h4 className='text-end blog-date'>February 2, 2024</h4>
+            <h4 className='text-end blog-date'>February 9, 2024</h4>
             <article>
                 <p>
                     Alright, lets dive into the world of Python – my coding comfort zone.
