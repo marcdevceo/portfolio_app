@@ -2,11 +2,13 @@ import React from 'react'
 
 const Resume = () => {
     return (
-      <div className='container m-7 px-4'>  
+      <div className='m-7 px-4'>  
         <section className='mb-8'> 
           <h1 className='text-3xl font-bold'>Marcus Kimber</h1>
-          <p>Customer and Data Focused Developer</p>
-          <p>Charlotte, NC 28269 | marcdevceo@icloud.com | +1-980-358-0566</p>
+          <h3>Customer and Data Focused Developer</h3>
+          <h3>Charlotte, NC 28269</h3>  
+          <h3>marcdevceo@icloud.com</h3> 
+          <h3>+1-980-358-0566</h3>
         </section>
         <section className='mb-8'> 
           <h2 className='text-2xl mb-2'>Summary</h2>
