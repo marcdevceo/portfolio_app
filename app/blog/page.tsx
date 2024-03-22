@@ -1,43 +1,35 @@
 import Link from 'next/link'
 import React from 'react'
 
-
-const Blog = () => {
-  return (
-    <div className='m-5'>
-        <h1 className='header new'>My Thoughts ...</h1>
-        <ul className='text-center m-10'>
-            <li className='p-5'>
-                <Link href='/blog/blog-1'>
-                    <button className='blog-button'>
-                        Rediscovering My Passion: A 22-Year Journey Back to Software Engineering
-                    </button>
-                </Link>
-            </li>
-            <li className='p-5'>
-                <Link href='/blog/blog-2'>
-                    <button className='blog-button'>
-                        From Front-End Fumbles to Backend Beginnings
-                    </button>
-                </Link>
-            </li>
-            <li className='p-5'>
-                <Link href='/blog/blog-3'>
-                    <button className='blog-button'>
-                        Navigating the Backend: My Adventure Begins
-                    </button>
-                </Link>
-            </li>
-            <li className='p-5'>
-                <Link href='/blog/blog-4'>
-                    <button className='blog-button'>
-                        Embracing the Pythonic Path: From Frontend Fancies to Backend Brilliance                    
-                    </button>
-                </Link>
-            </li>
-        </ul>
-    </div>
-  )
+type Post = {
+    id?: number;
+    title?: string;
+    content?: string;
 }
 
-export default Blog
+export default async function Blog() {
+    try {
+        const response = await fetch('https://blog-posts-api-71fdc389880b.herokuapp.com/blogposts/');
+        const posts = await response.json();
+
+        return (
+            <div className='m-5'>
+                <h1 className='header new'>My Thoughts ...</h1>
+                <ul className='text-center m-10'>
+                    {posts.map((post: Post) => (
+                        <li className='p-5' key={post.id}>
+                            <Link href={`blog/${post.id}`}>
+                                <button className='blog-button'>
+                                    {post.title}
+                                </button>
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        )
+    } catch (error) {
+        console.error('Error fetching blog posts:', error); 
+        return <div>Error fetching blog posts. Please try again later.</div>;
+    }
+}

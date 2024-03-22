@@ -84,3 +84,13 @@ p {
   transform: scale(1.2);
   transition: transform 0.2s ease-in-out; 
 }
+
+.post {
+  margin: 0px; 
+}
+
+@media screen and (min-width: 500px){
+  .post {
+    margin: 100px; 
+  }
+}
