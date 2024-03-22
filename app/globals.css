@@ -16,10 +16,6 @@
   }
 }
 
-header {
-  background-color: rgb(197, 129, 1);
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background-image: linear-gradient(to bottom, navy, grey, navy);
@@ -28,11 +24,16 @@ body {
   background-position: center;
 }
 
-.footer {
+header {
+  background-color: rgb(197, 129, 1);
+}
+
+footer {
   background-color: rgb(197, 129, 1);
   text-align: center;
   font-style: italic;
   margin-top: 400px;
+  font-size: 8px;
 }
 
 

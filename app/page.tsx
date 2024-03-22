@@ -33,9 +33,6 @@ export default function Home() {
             className="p-5"
             src={blogPostImage}
             alt="Blog Posts Image Link"
-            // width={500}
-            // height={500}
-            // layout="responsive"
           />     
         </Link>
         <Link href="/resume">
@@ -43,9 +40,6 @@ export default function Home() {
             className="p-5"
             src={resumeImage}
             alt="Resume Image Link"
-            // width={500}
-            // height={500}
-            // layout="responsive"
           />     
         </Link>
         <Link href="/projects">
@@ -53,9 +47,6 @@ export default function Home() {
             className="p-5"
             src={projectsImage} 
             alt="Projects Image Link"
-            // width={500}
-            // height={500}
-            // // layout="responsive"
           />
         </Link>
       </div>
