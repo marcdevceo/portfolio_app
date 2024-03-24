@@ -28,7 +28,7 @@ const Resume = () => {
             <li>Competent in Python programming and proficient in utilizing the Django framework for rapid development of web applications</li>
             <li>Experienced in working with various databases including SQLite, MySQL, and PostgreSQL, proficient in designing and optimizing database structures</li>
             <li>Proficient in implementing user authentication mechanisms to ensure secure access and data protection</li>
-            <li>Familiar with cloud computing platforms such as AWS, Azure, and Digital Ocean, with hands-on experience in deploying and managing applications in cloud environments</li>
+            <li>Familiar with cloud computing platforms such as AWS, Azure, Vercel, Heroku, and Digital Ocean, with hands-on experience in deploying and managing applications in cloud environments</li>
           </ul>
         </section>
         <section className='mb-8'>
