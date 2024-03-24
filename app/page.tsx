@@ -8,11 +8,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <div className="m-5">
-        <h1 className='header'>💼 MARCDEVCEO 💼</h1>
-        <h3 className="sub-header">A portfolio by Marcus Kimber</h3>
-      </div>
-      <div className="m-10">
+      
+      <div className="content m-10">
         <p>
           Welcome to my portfolio website! Here you will find a collection of my 
           professional journey, insights from my blog posts, highlights of my 

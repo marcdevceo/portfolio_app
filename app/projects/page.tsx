@@ -5,7 +5,7 @@ import mellcWebsite from '../../public/mellc-website.png'
 
 const Projects = () => {
   return (
-    <div className='m-10'>
+    <div className='content m-10'>
         <div className='header mb-5'>
             <h1>My Projects 🧑🏽‍💻</h1>
         </div>

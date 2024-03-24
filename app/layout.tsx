@@ -20,6 +20,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <header>
           <Navbar />
+          <h1 className='header'>💼 MARCDEVCEO 💼</h1>
+          <h3 className="sub-header">A portfolio by Marcus Kimber</h3>
         </header>
         <div className="body">
           {children}

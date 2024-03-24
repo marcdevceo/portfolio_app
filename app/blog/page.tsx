@@ -13,7 +13,7 @@ export default async function Blog() {
         const posts = await response.json();
 
         return (
-            <div className='m-5'>
+            <div className='content m-5'>
                 <h1 className='header new'>My Thoughts ...</h1>
                 <ul className='text-center m-10'>
                     {posts.map((post: Post) => (

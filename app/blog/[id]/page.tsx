@@ -10,7 +10,7 @@ interface BlogProps {
       const post = await response.json();
 
       return (
-          <div className='m-10'>
+          <div className='content m-10'>
               <h1 className="header">{post.title}</h1>
               <h4 className="text-end blog-date">{post.published_date}</h4>
               <article className='post'>
