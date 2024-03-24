@@ -2,8 +2,8 @@ import Image from "next/image";
 import blogPostImage from '../public/blog.jpeg';
 import projectsImage from '../public/Projects.png';
 import resumeImage from '../public/Resume.png';
-import walkthroughImage from '../public/walkthrough.png';
 import Link from "next/link";
+
 
 export default function Home() {
   return (

@@ -1,4 +1,4 @@
-import Blog from '../page';
+import Blog from '../Blog';
 
 interface BlogProps {
     params: {id: number};
