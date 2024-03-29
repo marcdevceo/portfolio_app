@@ -23,7 +23,7 @@ const Projects = () => {
             </p>
         </div>
         <div className='flex flex-wrap justify-center mt-20'>
-            <div>
+            <div className='mb-10 sm:mr-5'>
                 <Link href="https://mellc-e7db4.web.app/">
                     <Image
                         className="p-5"
@@ -31,8 +31,16 @@ const Projects = () => {
                         alt="MELLC Website" 
                     />
                 </Link>
+                <div className="flex flex-col">
+                    <h4 className='flex justify-center'>Manged Enterprises, LLC Website</h4>
+                    <a className='flex justify-center m-3' href="https://github.com/marcdevceo/mellc">
+                        <button className="bg-blue-700 border border-white px-4 py-2 rounded-lg text-white hover:bg-blue-300 hover:border-blue-400 hover:text-gray-900">
+                            Github Link
+                        </button>
+                    </a>
+                </div>
             </div>
-            <div>
+            <div className='mb-10 sm:mr-5'>
                 <Link href="https://sideline-connect-3e37933ea594.herokuapp.com/">
                     <Image
                         className="p-5"
@@ -40,6 +48,14 @@ const Projects = () => {
                         alt="Sideline Connect App Link" 
                     />
                 </Link>
+                <div className="flex flex-col">
+                    <h4 className='flex justify-center'>Sideline Connect Web App</h4>
+                    <a className='flex justify-center m-3' href="https://github.com/marcdevceo/sidelineconnect">
+                        <button className="bg-blue-700 border border-white px-4 py-2 rounded-lg text-white hover:bg-blue-300 hover:border-blue-400 hover:text-gray-900">
+                            Github Link
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
