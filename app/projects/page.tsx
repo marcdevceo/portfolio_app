@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import mellcWebsite from '../../public/mellc-website.png'
+import sidelineWebsite from '../../public/sideline-connect.png'
 
 const Projects = () => {
   return (
@@ -21,14 +22,25 @@ const Projects = () => {
                 exciting world of my web applications together!
             </p>
         </div>
-        <div>
-            <Link href="https://mellc-e7db4.web.app/">
-                <Image
-                    className="p-5"
-                    src={mellcWebsite}
-                    alt="Blog Posts Image Link" 
-                />
-            </Link>
+        <div className='flex flex-wrap justify-center mt-20'>
+            <div>
+                <Link href="https://mellc-e7db4.web.app/">
+                    <Image
+                        className="p-5"
+                        src={mellcWebsite}
+                        alt="MELLC Website" 
+                    />
+                </Link>
+            </div>
+            <div>
+                <Link href="https://sideline-connect-3e37933ea594.herokuapp.com/">
+                    <Image
+                        className="p-5"
+                        src={sidelineWebsite}
+                        alt="Sideline Connect App Link" 
+                    />
+                </Link>
+            </div>
         </div>
     </div>
   )
