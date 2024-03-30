@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## MarcDevCEO's Portfolio App
 
-## Getting Started
+Welcome to MarcDevCEO's portfolio app! This app, crafted by MarcDevCEO, is built using Next.js and Tailwind CSS, showcasing MarcDevCEO's projects, resume, and blog. MarcDevCEO leverages the power of Next.js and Tailwind CSS to create a sleek and responsive portfolio that highlights MarcDevCEO's skills and experiences.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Projects Showcase: View a collection of MarcDevCEO's projects, each represented by a clickable image that directs you to the actual web application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Resume: Access MarcDevCEO's resume to learn more about MarcDevCEO's professional background, skills, and experiences.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Blog: Explore MarcDevCEO's blog posts fetched from a Django Rest Framework (DRF) API hosted on Heroku. The blog post route is dynamic, updating the page content based on the selected blog title.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+GitHub Repository Link: Easily access the GitHub repository for this portfolio app for code review and collaboration.
 
-## Learn More
+TypeScript: Each page is written in TypeScript, ensuring type safety and enhanced developer experience.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js: Frontend framework for building React applications with server-side rendering and routing capabilities.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Tailwind CSS: Utility-first CSS framework for building custom designs quickly and efficiently.
 
-## Deploy on Vercel
+DRF API: Django Rest Framework API serving blog posts, hosted on Heroku.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+TypeScript: Static typing for improved code quality and developer productivity.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Vercel: Deployment platform for hosting the portfolio app, providing seamless deployment and scaling.
+
+## Usage
+
+To explore MarcDevCEO's portfolio app, simply visit the deployed URL on Vercel. You can navigate through the projects, resume, and blog sections, and click on the project images to access the respective web applications.
+
+## Deployment
+
+This portfolio app is deployed on Vercel, ensuring fast and reliable hosting. Any updates pushed to the repository will automatically trigger a new deployment on Vercel, keeping the app up-to-date.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+
+Special thanks to the Next.js and Tailwind CSS communities for their excellent frameworks and documentation. Also, shoutout to Django Rest Framework for enabling seamless integration with the blog API. Finally, thank you to Vercel for providing an excellent deployment platform.
