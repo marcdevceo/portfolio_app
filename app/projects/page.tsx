@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
         <div className='flex flex-wrap justify-center mt-20'>
             <div className='mb-10 sm:mr-5'>
-                <Link href="https://mellc-e7db4.web.app/">
+                <Link href="https://managedenterprises.net/">
                     <Image
                         className="p-5"
                         src={mellcWebsite}
