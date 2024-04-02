@@ -9,7 +9,12 @@ type Post = {
 
 export default async function Blog() {
     try {
-        const response = await fetch('https://blog-posts-api-71fdc389880b.herokuapp.com/blogposts/');
+        const response = await fetch(
+            'https://blog-posts-api-71fdc389880b.herokuapp.com/blogposts/',
+            {
+                cache: 'no-store',
+            }    
+        );
         const posts = await response.json();
 
         return (
