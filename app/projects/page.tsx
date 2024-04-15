@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import mellcWebsite from '../../public/mellc-website.png'
 import sidelineWebsite from '../../public/sideline-connect.png'
+import moviFind from '../../public/movifind.png'
 
 const Projects = () => {
   return (
@@ -51,6 +52,23 @@ const Projects = () => {
                 <div className="flex flex-col">
                     <h4 className='flex justify-center'>Sideline Connect Web App</h4>
                     <a className='flex justify-center m-3' href="https://github.com/marcdevceo/sidelineconnect">
+                        <button className="bg-blue-700 border border-white px-4 py-2 rounded-lg text-white hover:bg-blue-300 hover:border-blue-400 hover:text-gray-900">
+                            Github Link
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div className='mb-10 sm:mr-5'>
+                <Link href="https://movifind.vercel.app/">
+                    <Image
+                        className="p-5"
+                        src={moviFind}
+                        alt="MoviFind App Link" 
+                    />
+                </Link>
+                <div className="flex flex-col">
+                    <h4 className='flex justify-center'>MoviFind Web App</h4>
+                    <a className='flex justify-center m-3' href="https://github.com/marcdevceo/movifind">
                         <button className="bg-blue-700 border border-white px-4 py-2 rounded-lg text-white hover:bg-blue-300 hover:border-blue-400 hover:text-gray-900">
                             Github Link
                         </button>
