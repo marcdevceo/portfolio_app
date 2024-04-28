@@ -7,9 +7,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-      
-      <div className="content m-10">
+    <div className="m-50">
+      <div className="content">
         <p>
           Welcome to my portfolio website! Here you will find a collection of my 
           professional journey, insights from my blog posts, highlights of my 
